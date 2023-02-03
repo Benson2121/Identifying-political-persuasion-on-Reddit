@@ -44,7 +44,7 @@ The comments, as given, are not in a form amenable to feature extraction for cla
  
 5. Apply the following steps using spaCy (see below):
 
-• Tagging: Tag each token with its part-of-speech. A tagged token consists of a word, the ‘/’ symbol, and the tag (e.g., dog/NN). See below for information on how to use the tagging module. The tagger can make mistakes.
+     -- Tagging: Tag each token with its part-of-speech. A tagged token consists of a word, the ‘/’ symbol, and the tag (e.g., dog/NN). See below for information on how to use the tagging module. The tagger can make mistakes.
 
-• Lemmatization: Replace the token itself with the token.lemma . E.g., words/NNS becomes word/NNS. If the lemma begins with a dash (‘-’) when the token doesn’t (e.g., -PRON- for I, just keep the token.). Retain the case of the original token when you perform this replacement. We make two distinctions here: if the original token is entirely in uppercase, the so is the lemma; otherwise, keep the lemma in lowercase.
-• Sentence segmentation: Add a newline between each sentence. For this assignment, we will use spaCy’s sentencizer component to segment sentences in a post. Remember to also mark the end of the post with a newline (watch out for duplicates!).
+     -- Lemmatization: Replace the token itself with the token.lemma . E.g., words/NNS becomes word/NNS. If the lemma begins with a dash (‘-’) when the token doesn’t (e.g., -PRON- for I, just keep the token.). Retain the case of the original token when you perform this replacement. We make two distinctions here: if the original token is entirely in uppercase, the so is the lemma; otherwise, keep the lemma in lowercase.
+     -- Sentence segmentation: Add a newline between each sentence. For this assignment, we will use spaCy’s sentencizer component to segment sentences in a post. Remember to also mark the end of the post with a newline (watch out for duplicates!).
