@@ -29,3 +29,26 @@ Each datum has several fields of interest, including:
 **body**: the main textual message of the post, and our primary interest.
 
 **id**: the unique identifier of the comment.
+
+# Tasks
+
+There are three tasks you have to do:
+
+1 **Pre-processing, tokenizing, and tagging**
+
+The comments, as given, are not in a form amenable to feature extraction for classification – there is too much ‘noise’. Therefore, the first step is to complete a Python program named a1 preproc.py, in accordance with Section 5, that will read subsets of JSON files, and for each comment perform the following steps, in order, on the ‘body’ field of each selected comment:
+
+1. Replace all non-space whitespace characters, including newlines, tabs, and carriage returns, with spaces.
+2. 
+3. Replace HTML character codes (i.e., &...;) with their ASCII equivalent (see http://www.asciitable.com).
+4. 
+5. Remove all URLs (i.e., tokens beginning with http or www).
+6. 
+7. Remove duplicate spaces between tokens.
+8. 
+5. Apply the following steps using spaCy (see below):
+6. 
+• Tagging: Tag each token with its part-of-speech. A tagged token consists of a word, the ‘/’ symbol, and the tag (e.g., dog/NN). See below for information on how to use the tagging module. The tagger can make mistakes.
+
+• Lemmatization: Replace the token itself with the token.lemma . E.g., words/NNS becomes word/NNS. If the lemma begins with a dash (‘-’) when the token doesn’t (e.g., -PRON- for I, just keep the token.). Retain the case of the original token when you perform this replacement. We make two distinctions here: if the original token is entirely in uppercase, the so is the lemma; otherwise, keep the lemma in lowercase.
+• Sentence segmentation: Add a newline between each sentence. For this assignment, we will use spaCy’s sentencizer component to segment sentences in a post. Remember to also mark the end of the post with a newline (watch out for duplicates!).
