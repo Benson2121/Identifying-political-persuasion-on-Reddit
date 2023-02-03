@@ -30,11 +30,7 @@ Each datum has several fields of interest, including:
 
 **id**: the unique identifier of the comment.
 
-# Tasks
-
-There are three tasks you have to do:
-
-1 **Pre-processing, tokenizing, and tagging**
+# Task 1: Pre-processing, tokenizing, and tagging
 
 The comments, as given, are not in a form amenable to feature extraction for classification – there is too much ‘noise’. Therefore, the first step is to complete a Python program named a1 preproc.py, in accordance with Section 5, that will read subsets of JSON files, and for each comment perform the following steps, in order, on the ‘body’ field of each selected comment:
 
