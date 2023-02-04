@@ -33,7 +33,7 @@ Each datum has several fields of interest, including:
 
 ## Task 1: Pre-processing, tokenizing, and tagging
 
-The comments, as given, are not in a form amenable to feature extraction for classification – there is too much ‘noise’. Therefore, the first step is to complete a Python program named a1 preproc.py, in accordance with Section 5, that will read subsets of JSON files, and for each comment perform the following steps, in order, on the ‘body’ field of each selected comment:
+The comments, as given, are not in a form amenable to feature extraction for classification – there is too much ‘noise’. Therefore, the first step is to complete a Python program named preproc.py, in accordance with Section 5, that will read subsets of JSON files, and for each comment perform the following steps, in order, on the ‘body’ field of each selected comment:
 
 1. Replace all non-space whitespace characters, including newlines, tabs, and carriage returns, with spaces.
 
@@ -56,7 +56,7 @@ The comments, as given, are not in a form amenable to feature extraction for cla
 
 ## Task 2: Feature extraction
 
-The second step is to complete a Python program named a1 extractFeatures.py, in accordance with Section 5, that takes the preprocessed comments from Task 1, extracts features that are relevant to bias detection, and builds an npz datafile that will be used to train models and classify comments in Task 3.
+The second step is to complete a Python program named extractFeatures.py, in accordance with Section 5, that takes the preprocessed comments from Task 1, extracts features that are relevant to bias detection, and builds an npz datafile that will be used to train models and classify comments in Task 3.
 
 For each comment, you need to extract 173 features and write these, along with the category, to a single NumPy array. 
 These features are listed below. Several of these features involve counting tokens based on their tags. 
@@ -139,7 +139,7 @@ class j, compute the following manually, using the associated function templates
 - Recall : for each class κ, the fraction of cases that are truly class κ that were classified as κ.
 - Precision : for each class κ, the fraction of cases classified as κ that truly are κ.
 
-Write the results to the text file a1 3.1.txt in the output directory. 
+Write the results to the text file a1_3.1.txt in the output directory. 
 For each classifier, you will print the accuracy, recall, precision, and confusion matrix.
 
 ### 3.2 Amount of training data ###
@@ -148,7 +148,7 @@ Many researchers attribute the success of modern machine learning to the sheer v
 Modify the amount of data that is used to train your preferred classifier from above in five increments: 1K, 5K, 10K, 15K, and 20K. 
 These can be sampled arbitrarily from the training set in Section 3.1. 
 
-Using only the classification algorithm with the highest accuracy from Section 3.1, report the accuracies of the classifier to the file a1 3.2.txt using the format string provided in the template. 
+Using only the classification algorithm with the highest accuracy from Section 3.1, report the accuracies of the classifier to the file a1_3.2.txt using the format string provided in the template. 
 On one or more lines following the reported accuracies, comment on the changes to accuracy as the number of
 training samples increases, including at least two sentences on a possible explanation.
 
@@ -158,9 +158,9 @@ Certain features may be more or less useful for classification, and too many can
 
 In the example above, pp stores the p-value associated with doing a χ2 statistical test on each feature. A smaller value means the associated feature better separates the classes. Do this:
 
-1. For the 32k training set and each number of features k = {5, 50}, find the best k features according to this approach. Write the associated p-values to a1 3.3.txt using the format strings provided.
+1. For the 32k training set and each number of features k = {5, 50}, find the best k features according to this approach. Write the associated p-values to a1_3.3.txt using the format strings provided.
 
-2. Train the best classifier from section 3.1 for each of the 1K training set and the 32K training set, using only the best k = 5 features. Write the accuracies on the full test set of both classifiers to a1 3.3.txt using the format strings provided.
+2. Train the best classifier from section 3.1 for each of the 1K training set and the 32K training set, using only the best k = 5 features. Write the accuracies on the full test set of both classifiers to a1_3.3.txt using the format strings provided.
 
 3. Extract the indices of the top k = 5 features using the 1K training set and take the intersection with the k = 5 features using the 32K training set.
 
@@ -172,7 +172,7 @@ This may not be the most honest approach. Is the best classifier from Section 3.
 For each of the classifiers in Section 3.1, run 5-fold cross-validation given all the initially available data. 
 Specifically, use KFold. Set the shuffle argument to true.
 
-For each fold, obtain accuracy on the test partition after training on the rest for each classifier. Report the mean accuracy of each classifier for each of the 5 folds in the order specified in 3.1 to a1 3.4.txt using the format strings provided. Next, determine whether the accuracy of your best classifier, across the 5 folds, is significantly better than any others.
+For each fold, obtain accuracy on the test partition after training on the rest for each classifier. Report the mean accuracy of each classifier for each of the 5 folds in the order specified in 3.1 to a1_3.4.txt using the format strings provided. Next, determine whether the accuracy of your best classifier, across the 5 folds, is significantly better than any others.
 
 ## Task 4: Bonus
 
