@@ -14,6 +14,8 @@ Your task is to split posts into sentences, tag them with a PoS tagger that we w
 
 Sentiment analysis is an important topic in computational linguistics in which we quantify subjective aspects of language. These aspects can range from biases in social media for marketing, to a spectrum of cognitive behaviours for disease diagnosis.
 
+To future CSC401 students: Please do not copy any part of the code since this is considered an academic offence.
+
 ## Reddit Corpus
 
 We have curated data from Reddit by scraping subreddits, using Pushshift, by perceived political affiliation. Subreddits assigned to each of four categories: left-leaning, right-leaning, center/neutral, and ‘alternative facts’. 
