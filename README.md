@@ -6,7 +6,7 @@ CSC401: Natural Language Computing -- Winter 2023
 
 Instructors: Annie En-Shiun Lee, Raeid Saqur, and Zining Zhu.
 
-To future CSC401 students: Please do not copy any part of the code since this is considered an academic offence.
+To future course students: Please do not copy any part of the code since this is considered an academic offence.
 
 ## Introduction
 
