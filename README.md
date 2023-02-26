@@ -6,6 +6,8 @@ CSC401: Natural Language Computing -- Winter 2023
 
 Instructors: Annie En-Shiun Lee, Raeid Saqur, and Zining Zhu.
 
+To future CSC401 students: Please do not copy any part of the code since this is considered an academic offence.
+
 ## Introduction
 
 This project will give you experience with a social media corpus (i.e., a collection of posts from Reddit), Python programming, part-of-speech (PoS) tags, sentiment analysis, and machine learning with scikit-learn. 
@@ -13,8 +15,6 @@ This project will give you experience with a social media corpus (i.e., a collec
 Your task is to split posts into sentences, tag them with a PoS tagger that we will provide, gather some feature information from each post, learn models, and use these to classify political persuasion. 
 
 Sentiment analysis is an important topic in computational linguistics in which we quantify subjective aspects of language. These aspects can range from biases in social media for marketing, to a spectrum of cognitive behaviours for disease diagnosis.
-
-To future CSC401 students: Please do not copy any part of the code since this is considered an academic offence.
 
 ## Reddit Corpus
 
