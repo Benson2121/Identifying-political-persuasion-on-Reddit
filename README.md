@@ -8,8 +8,6 @@ Instructors: Annie En-Shiun Lee, Raeid Saqur, and Zining Zhu.
 
 [Course Website](https://www.cs.toronto.edu/~raeidsaqur/csc401/)
 
-To future course students: Please do not copy any part of the code since this is considered academic offence.
-
 ## Introduction
 
 This project will give you experience with a social media corpus (i.e., a collection of posts from Reddit), Python programming, part-of-speech (PoS) tags, sentiment analysis, and machine learning with scikit-learn. 
