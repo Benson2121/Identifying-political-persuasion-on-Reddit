@@ -1,5 +1,9 @@
 # Identifying-political-persuasion-on-Reddit
 
+University of Toronto
+
+Benson Li
+
 ## Introduction
 
 This project will give you experience with a social media corpus (i.e., a collection of posts from Reddit), Python programming, part-of-speech (PoS) tags, sentiment analysis, and machine learning with scikit-learn. 
@@ -181,3 +185,13 @@ Some ideas:
 - Explore alternative classification methods to those used in Task 3. Explore different hyper- parameters. Which hyper-parameters give the best empirical performance, and why?
 
 - Learn about topic modelling as in latent Dirichlet allocation. Are there topics that have an effect on the accuracy of the system? E.g., is it easier to tell how someone feels about politicians or about events? People or companies? As there may be class imbalances in the groups, how would you go about evaluating this? Go about evaluating this.
+
+## Acknowledgment
+
+The started code of this project is from CSC401: Natural Language Computing (Winter 2023)
+
+Instructors: Annie En-Shiun Lee, Raeid Saqur, and Zining Zhu.
+
+![Course Website](https://www.cs.toronto.edu/~raeidsaqur/csc401/)
+
+
