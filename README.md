@@ -184,7 +184,9 @@ Some ideas:
 
 ## Acknowledgment
 
-The started code of this project is from CSC401: Natural Language Computing (Winter 2023), University of Toronto
+The started code of this project is from:
+
+CSC401: Natural Language Computing (Winter 2023) -- University of Toronto
 
 Instructors: Annie En-Shiun Lee, Raeid Saqur, and Zining Zhu.
 
