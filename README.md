@@ -188,6 +188,6 @@ The started code of this project is from CSC401: Natural Language Computing (Win
 
 Instructors: Annie En-Shiun Lee, Raeid Saqur, and Zining Zhu.
 
-![Course Website](https://www.cs.toronto.edu/~raeidsaqur/csc401/)
+[Course Website](https://www.cs.toronto.edu/~raeidsaqur/csc401/)
 
 
