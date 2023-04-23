@@ -1,13 +1,5 @@
 # Identifying-political-persuasion-on-Reddit
 
-University of Toronto
-
-CSC401: Natural Language Computing -- Winter 2023
-
-Instructors: Annie En-Shiun Lee, Raeid Saqur, and Zining Zhu.
-
-[Course Website](https://www.cs.toronto.edu/~raeidsaqur/csc401/)
-
 ## Introduction
 
 This project will give you experience with a social media corpus (i.e., a collection of posts from Reddit), Python programming, part-of-speech (PoS) tags, sentiment analysis, and machine learning with scikit-learn. 
