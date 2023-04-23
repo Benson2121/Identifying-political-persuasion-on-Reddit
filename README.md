@@ -184,7 +184,7 @@ Some ideas:
 
 ## Acknowledgment
 
-The started code of this project is from:
+The started code of this project is provied by:
 
 University of Toronto 
 
