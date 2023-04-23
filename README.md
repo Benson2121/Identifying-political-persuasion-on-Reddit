@@ -1,9 +1,5 @@
 # Identifying-political-persuasion-on-Reddit
 
-University of Toronto
-
-Benson Li
-
 ## Introduction
 
 This project will give you experience with a social media corpus (i.e., a collection of posts from Reddit), Python programming, part-of-speech (PoS) tags, sentiment analysis, and machine learning with scikit-learn. 
@@ -188,7 +184,7 @@ Some ideas:
 
 ## Acknowledgment
 
-The started code of this project is from CSC401: Natural Language Computing (Winter 2023)
+The started code of this project is from CSC401: Natural Language Computing (Winter 2023) -- University of Toronto
 
 Instructors: Annie En-Shiun Lee, Raeid Saqur, and Zining Zhu.
 
